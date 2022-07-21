@@ -4,14 +4,14 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
+      "menu-item#category",
       "menu-item#category-home",
       "menu-item#more"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#category": {
     "props": {
-      "id": "menu-item-category-apparel",
+      "id": "menu-item-category",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -24,30 +24,30 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#category"
     ]
   },
-  "vtex.menu@2.x:submenu#category-apparel": {
+  "vtex.menu@2.x:submenu#category": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-apparel"
+      "vtex.menu@2.x:menu#category"
     ]
   },
-  "vtex.menu@2.x:menu#category-apparel": {
+  "vtex.menu@2.x:menu#category": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-computer",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#category-computer",
+      "menu-item#category-vrglass",
+      "menu-item#category-smartphones"
     ]
   },
-  "menu-item#category-apparel-computer": {
+  "menu-item#category-computer": {
     "props": {
-      "id": "menu-item-category-apparel-computer",
+      "id": "menu-item-category-computer",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -60,33 +60,33 @@
       }
     }
   },
-  "menu-item#category-apparel-accessories": {
+  "menu-item#category-vrglass": {
     "props": {
-      "id": "menu-item-category-apparel-accessories",
+      "id": "menu-item-category-vrglass",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/vroculos",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
+        "tagTitle": "Virtual Reality Glass",
+        "text": "Virtual Reality Glass"
       }
     }
   },
-  "menu-item#category-apparel-eyeglasses": {
+  "menu-item#category-smartphones": {
     "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
+      "id": "menu-item-category-smartphones",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
+        "href": "/celular/",
         "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
+        "tagTitle": "Smartphones",
+        "text": "Smartphones"
       }
     }
   },
@@ -98,10 +98,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/speedware2/",
         "noFollow": false,
         "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "text": "Clothing"
       }
     }
   },
